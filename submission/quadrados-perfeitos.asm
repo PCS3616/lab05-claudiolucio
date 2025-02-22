@@ -1,4 +1,4 @@
-		@ /0010
+		@ /0200
 N		K /0040
 I		K /0040
 J		K /0000
@@ -8,7 +8,7 @@ Q		k /0001
 END		K /9100
 		JP LOOP_SEQ
 
-		@ /0200
+		@ /0000
 LOOP_SUM	LD J
 		JP END; guarda no end 1xx
 LOOP_SEQ	LD END; load do end
